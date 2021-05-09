@@ -28,7 +28,7 @@ public class Base {
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "\\src\\main\\java\\PageObjects\\gift.properties");
 		prop.load(fis);
-		// String browserName=System.getProperty("browser");
+
 
 		String browserName = prop.getProperty("browser");
 		System.out.println(browserName);
